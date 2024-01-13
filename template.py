@@ -19,6 +19,8 @@ list_of_files = [
     f"src/{project_name}/pipeline/__init__.py",
     f"src/{project_name}/entity/__init__.py",
     f"src/{project_name}/constants/__init__.py",
+    "tests/unit/__init__.py",
+    "tests/integration/__init__.py",
     "config/config.yaml",
     "params.yaml",
     "app.py",
@@ -26,6 +28,8 @@ list_of_files = [
     "Dockerfile",
     "requirements.txt",
     "setup.py",
+    "setup.cfg",
+    'toxi,ini',
     "research/trials.ipynb",
 
 ]
